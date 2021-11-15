@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>상품등록</title>
 	<link rel="icon" type="image/png" href="http://example.com/myicon.png">
 	<link rel="stylesheet" href="/resources/css/common-style/reset.css"> 

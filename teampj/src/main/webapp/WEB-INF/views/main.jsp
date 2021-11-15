@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>minparkang</title>
 	<link rel="stylesheet" href="/resources/css/common-style/reset.css">
 	<link rel="stylesheet" href="/resources/css/common-style/side-nav.css">
@@ -347,7 +347,7 @@ html,body{
 						<a href="/detail?productId=${Product.productId}"> <img
 							class="puoduct_img"
 							src="/resources/upload/${Product.uploadPath}/${Product.uuid}_${Product.fileName}"
-							alt="" onerror="this.src='/resources/img/noimg.jpg'">
+							alt="" >
 						</a>
 						<ul>
 							<li><a href="/detail?productId=${Product.productId}"><c:out
